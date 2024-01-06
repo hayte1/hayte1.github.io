@@ -9,7 +9,7 @@ icon: heart
 {:toc}
 
 ## 关于我
-爱上数字化的视频人。<br>
+爱上数字化的食品人。<br>
 思维导图超级迷。<br>
 现为20年食品人。<br>
 从厂房设计-生产许可-体系认证-培训-辅导全流程指导<br>
@@ -25,4 +25,4 @@ icon: heart
 
 ## Comments
 
-{% include comments.html %} 
+{% include comments.html %}  
