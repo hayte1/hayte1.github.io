@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<div class="page clearfix" index>
+<div class="page clearfix" index>  
     <div class="left">
-        <h1>ZOE's MindMap</h1>
+        <h1>从这里开始一步步来</h1> 
         <!-- <small><span style="color: #4d6dad;transition: all 0.5s ease 0s;">最新文章 & 导图下载尽在「公众号：食品扩展」</span></small> --> 
 
-        <small><i>从这里开始阅读:</i><a href="https://hayte1.github.io/20240106-science/">「数据科学」</a><a href="https://hayte1.github.io/20240107/xuke/">「许可信息」</a></small> 
-        <!-- <small><b>系列博文:</b><a href="https://hayte1.github.io/20240108/blog-begin/">「博客概览」</a><a href="https://hayte1.github.io/2016/09/11/data-science/">「数据科学」</a><a href="https://hayte1.github.io/2016/09/09/python/">「Python」</a><a href="https://hayte1.github.io/2016/09/08/r/">「R」</a><a href="https://hayte1.github.io/2016/09/10/ML&DM/">「ML&DM」</a></a></small> --> 
+        <small><i>从这里开始阅读:</i><a href="https://hayte1.github.io/20240106-science/">「数据科学」</a><a href="https://hayte1.github.io/20240107/xuke/">「许可信息」</a></small>  
+        <!-- <small><b>系列博文:</b><a href="https://hayte1.github.io/20240108/blog-begin/">「博客概览」</a><a href="https://hayte1.github.io/2016/09/11/data-science/">「数据科学」</a><a href="https://hayte1.github.io/2016/09/09/python/">「Python」</a><a href="https://hayte1.github.io/2016/09/08/r/">「R」</a><a href="https://hayte1.github.io/2016/09/10/ML&DM/">「ML&DM」</a></a></small> -->  
         <hr>
         <ul>
             {% for post in paginator.posts %} 
@@ -40,7 +40,7 @@ layout: default
                     {{post.excerpt}}
                 </div>
                 <div class="read-all">
-                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read All</a>
+                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read All</a> 
                 </div>
                 <hr>
               </li>
