@@ -1,42 +1,42 @@
-# Welcome to Jekyll!
+# Welcome to Hayte1! 
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
+# This config file is meant for settings that affect your whole blog, values 
+# which you are expected to set up once and rarely need to edit after that. 
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: ZOE | 数林觅风
-brief-intro: 欢迎关注公众号「数林觅风」
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://woaielf.github.io" # the base hostname & protocol for your site
+title: 黄永刚 | 食品扩展
+brief-intro: 欢迎关注公众号「食品扩展」
+baseurl: "" # the subpath of your site, e.g. /blog 
+url: "http://hayte1.github.io" # the base hostname & protocol for your site 
 
 permalink: /:year/:month/:day/:title/
 
 # other links
-# twitter_username: gaohaoyang126
-# facebook_username: gaohaoyang.water
-github_username:  woaielf
-email: zoemindmap@outlook.com
-# weibo_username: 3115521wh
-zhihu_username: woaielf
-# linkedIn_username: gaohaoyang
+# twitter_username: hayte 
+# facebook_username: hayte1 
+github_username:  hayte1
+email: hayte@163.com 
+# weibo_username: hayte
+zhihu_username: hayte1
+# linkedIn_username: hayte1
 # dribbble_username:
 
-description_footer: 「数据科学思维导图笔记」
+description_footer: 「流程思维导图笔记」
 
 # comments
-# two ways to comment, only choose one, and use your own short name
+# two ways to comment, only choose one, and use your own short name 
 # 两种评论插件，选一个就好了，使用自己的 short_name
 # duoshuo_shortname: woaielf
 # disqus_shortname: woaielf
 
-# statistic analysis 统计代码
+# statistic analysis 统计代码 
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
-# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx"; 
 # xxxxx字符串
-baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
-# google_analytics_id: UA-72449510-4 # google 分析追踪id
+baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4 
+# google_analytics_id: UA-72449510-4 # google 分析追踪id 
 
 # Build settings
 markdown: kramdown
