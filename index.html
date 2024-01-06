@@ -8,7 +8,7 @@ layout: default
         <!-- <small><span style="color: #4d6dad;transition: all 0.5s ease 0s;">最新文章 & 导图下载尽在「公众号：食品扩展」</span></small> --> 
 
         <small><i>从这里开始阅读:</i><a href="https://hayte1.github.io/20240106-science/">「数据科学」</a><a href="https://hayte1.github.io/20240107/xuke/">「许可信息」</a></small>  
-        <!-- <small><b>系列博文:</b><a href="https://hayte1.github.io/20240108/blog-begin/">「博客概览」</a><a href="https://hayte1.github.io/2016/09/11/data-science/">「数据科学」</a><a href="https://hayte1.github.io/2016/09/09/python/">「Python」</a><a href="https://hayte1.github.io/2016/09/08/r/">「R」</a><a href="https://hayte1.github.io/2016/09/10/ML&DM/">「ML&DM」</a></a></small> -->  
+        <!-- <small><b>系列博文:</b><a href="https://hayte1.github.io/20240108/blog-begin/">「博客概览」</a><a href="https://hayte1.github.io/2024011011/data-science/">「数据科学」</a><a href="https://hayte1.github.io/2024011009/python/">「Python」</a><a href="https://hayte1.github.io/2024011008/r/">「R」</a><a href="https://hayte1.github.io/2024011010/ML&DM/">「ML&DM」</a></a></small> -->    
         <hr>
         <ul>
             {% for post in paginator.posts %} 
@@ -133,7 +133,7 @@ layout: default
                       {% if remain == 0 %}
                         {% assign size = base | plus: 9 %}
                       {% elsif remain == 1 or remain == 2 %}
-                        {% assign size = base | plus: 9 | append: '.5' %}
+                        {% assign size = base | plus: 9 | append: '.5' %} 
                       {% else %}
                         {% assign size = base | plus: 10 %}
                       {% endif %}
